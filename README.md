@@ -1,7 +1,7 @@
 # ArAdLo
 **ArAdLo** = **Ar**duino **Ad**vanced **Lo**gger
 
-ArAdLo is a highly configurable data logging sketch that lets you use any ATmega328-family Arduino (or larger) to interface with, and log data from a slew of both analog and digital I2C sensors. 
+ArAdLo is a highly configurable atmospheric data logging sketch that lets you use any ATmega328-family Arduino (or larger) to interface with, and log data from a slew of both analog and digital I2C sensors. 
 
 The project is currently focused for multicopter ("drone") use in climate modelling and mapping by logging geo-specific atmospheric data to a CSV file on an SD card from the following sensors:
 - AM2315 Temperature/Humidity Sensor
