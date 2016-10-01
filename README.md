@@ -3,7 +3,7 @@
 
 ArAdLo is a highly configurable atmospheric data logging sketch that lets you use any ATmega328-family Arduino (or larger) to interface with, and log data from a slew of both analog and digital I2C sensors. 
 
-The project is currently focused for multicopter ("drone") use in climate modelling and mapping by logging geo-specific atmospheric data to a CSV file on an SD card from the following sensors:
+The project is currently focused for multicopter ("drone") use in climate modelling and mapping by logging geo-specific atmospheric data to a CSV file on an SD card from, for example, the following sensors:
 - AM2315 Temperature/Humidity Sensor
 - MLX90614 Infrared Temperature Sensor
 - SI1145 UV Index / IR / Visible Light sensor
@@ -21,6 +21,9 @@ The project is currently focused for multicopter ("drone") use in climate modell
 - #include <Adafruit_MLX90614.h> //IR Thermopile
 - #include "Adafruit_SI1145.h" //UV Index sensor
 - #include <Adafruit_AM2315.h> //temp/humidity sensor
+
+**Wiring:**
+todo 
 
 **User Modification:**
 All sections of the sketch are commented thoroughly and can be omitted or added to without much hassle. Sections tied to an "//IR thermopile" comment for example can be omitted, and the CSV header line can be modified to fit. It's encouraged that you first tinker with your sensor's example sketches, then copy over the necessary lines of code for logging. 
@@ -44,6 +47,7 @@ Manual tricopter survey of IR temperature data plotted to GPS position:
 ![CSV in MS Excel](http://i.imgur.com/XH3HwEq.png "CSV in MS Excel")
 
 **ToDo:**
+- Make a Fritzing drawing of circuit.
 - Spruce up comments.
 - Improve RXPin section.
 - Something with free ram. 
